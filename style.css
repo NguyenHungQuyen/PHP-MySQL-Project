@@ -67,6 +67,7 @@ GENERAL
     appearance: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 body 
@@ -1058,6 +1059,11 @@ MEDIA QUERIES (MEDIUM DEVICES)
     {
         width: 60%;
     }
+/* ================GENERAL FORM================= */
+    .form__section-container
+    {
+        padding: 3rem;
+    }
 }   
 
 
@@ -1179,6 +1185,11 @@ MEDIA QUERIES (SMALL DEVICES)
     {
         margin-top: 6rem;
         background-color: transparent;
+        padding: 0;
+    }
+    /* ================GENERAL FORM================= */
+    .form__section-container
+    {
         padding: 0;
     }
 }
